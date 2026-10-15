@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Meu Proxy de Desenvolvimento",
+  "version": "1.0",
+  "description": "Extensão para gerenciar configurações de proxy local no modo desenvolvedor.",
+  "permissions": [
+    "proxy",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
