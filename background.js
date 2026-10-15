@@ -4,8 +4,9 @@ const proxyConfig = {
   rules: {
     singleProxy: {
       scheme: "http", // pode ser "http", "https", ou "socks5"
-      host: "127.0.0.1", // IP do seu proxy
-      port: 8080        // Porta do seu proxy
+host: "ip.do.seu.proxy",  // Coloque o IP ou o domínio real aqui
+port: 443                 // Coloque a porta real aqui (ex: 80, 443, 3128, 8080)
+
     },
     bypassList: ["localhost", "127.0.0.1"] // Sites que NÃO vão passar pelo proxy
   }
